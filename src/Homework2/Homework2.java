@@ -36,7 +36,7 @@ public class Homework2 {
         Boolean redIsHitFromBehind = false;
         Boolean blackIsHitFromBehind = true;
 
-        if (redIsHitFromBehind && blackIsHitFromBehind || !redIsHitFromBehind && !blackIsHitFromBehind) {
+        if (redIsHitFromBehind && blackIsHitFromBehind) {
             System.out.println("Invalid State");
         } else if (redIsHitFromBehind == true && blackIsHitFromBehind == false) {
             System.out.println("The black car is guilty for the crash");
