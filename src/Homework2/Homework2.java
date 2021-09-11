@@ -22,7 +22,7 @@ public class Homework2 {
         char char2 = 'B';
         char char3 = 'C';
 
-        if (char1 > char2) {
+        if (char2 < char1) {
             System.out.println("A comes last, when arranged in alphabetical order");
         } else if (char2 > char3 ) {
             System.out.println("B comes last, when arranged in alphabetical order");
@@ -36,9 +36,9 @@ public class Homework2 {
         Boolean redIsHitFromBehind = false;
         Boolean blackIsHitFromBehind = true;
 
-        if (redIsHitFromBehind && blackIsHitFromBehind || !redIsHitFromBehind && !blackIsHitFromBehind) {
+        if (redIsHitFromBehind && blackIsHitFromBehind) {
             System.out.println("Invalid State");
-        } else if (redIsHitFromBehind == true && blackIsHitFromBehind == false) {
+        } else if (redIsHitFromBehind && !blackIsHitFromBehind) {
             System.out.println("The black car is guilty for the crash");
         } else {
             System.out.println("The red car is guilty for the crash");
