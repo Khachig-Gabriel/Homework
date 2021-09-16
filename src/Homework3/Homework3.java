@@ -6,15 +6,15 @@ public class Homework3 {
 
     public static void main(String[] args) {
 
-        int number1, number2;
+        double number1, number2;
         String operator;
-        int result = 0;
+        double result = 0;
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your 1st number: ");
-        number1 = sc.nextInt();
+        number1 = sc.nextDouble();
         System.out.println("Enter your 2nd number: ");
-        number2 = sc.nextInt();
+        number2 = sc.nextDouble();
         System.out.println("Enter the operator in the following way: a - add," +
                 " s - subtract, m - multiply, d - divide ");
         operator = sc.next();
@@ -40,11 +40,7 @@ public class Homework3 {
         }
         System.out.println("The result is: " + result);
 
-
-
     }
-
-
 
 
 }
