@@ -32,5 +32,6 @@ public class InsertionSortAlgorithm {
         System.out.println();
         System.out.println("Sorted Arrays");
         for (int j = 0; j < array.length; j++) {
-            System.out.println("Array [" + j + "] = " + array[j]); } }
+            System.out.println("Array [" + j + "] = " + array[j]); }
+    }
         }
