@@ -23,7 +23,7 @@ public class Homework4 {
             i++;
         }
         System.out.println("The arithmetic average of all the even numbers is: " + arithmetic/count);
-        System.out.println();
+        System.out.println("------------------------------------------");
 
 
         /*
@@ -39,7 +39,7 @@ public class Homework4 {
             }
             System.out.println(j);
         }
-        System.out.println();
+        System.out.println("------------------------------------------");
 
 
 
@@ -59,7 +59,7 @@ public class Homework4 {
         }
         while (c <= 5);
         System.out.println("The summary of the input numbers is : " + sum);
-        System.out.println();
+        System.out.println("------------------------------------------");
 
 
 
